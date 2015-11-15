@@ -1,0 +1,22 @@
+{
+  "name": "generator-babel-es6",
+  "version": "0.0.1",
+  "description": "yeoman generator for simplify babel es6 project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "generators/app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "generator babel es6 project"
+  ],
+  "author": "Hugh",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.20.2"
+  }
+}
