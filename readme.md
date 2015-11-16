@@ -18,3 +18,5 @@ $ npm install -g generator-babel-es6
 ```
 $ yo babel-es6
 ```
+## Change log
+0.1.0 - add input project name prompt.
