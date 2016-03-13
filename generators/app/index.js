@@ -44,5 +44,15 @@ module.exports = generators.Base.extend({
   installDependencies: function() {
     this.npmInstall(["babel", "babel-core", "babel-loader", "babel-preset-es2015", "webpack"], { 'saveDev': true });
     this.npmInstall(["debug"], { 'save': true });
+    /*
+    this.installDependencies({
+      bower: false,
+      npm: true,
+      skipInstall: this.options['skip-install'],
+      callback: function () {
+        console.log('Enjoy ES6 project!');
+      }
+    });
+    */
   }
 });

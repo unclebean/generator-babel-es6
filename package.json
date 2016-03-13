@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "generators/app"
+    "generators/app",
+    "generators/react-app"
   ],
   "keywords": [
     "yeoman-generator",

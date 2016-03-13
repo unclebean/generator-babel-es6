@@ -1,0 +1,17 @@
+{
+  "name": "<%=appName%>",
+  "version": "0.0.1",
+  "description": "babel es6",
+  "scripts": {
+    "start": "node server.js",
+    "prod": "webpack --config config/webpack.config.js -p"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
